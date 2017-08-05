@@ -2,6 +2,8 @@
 */*/settings_database.py
 */db.sqlite3
 db.sqlite3
+curso
+cphelper
 
 # virtualenv
 venv

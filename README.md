@@ -3,9 +3,9 @@
 本專案分成三種類型的api  
 請去察看各自api的readme
 
-1. [curso](curso.md)
-2. [cphelper](cphelper.md)
-3. [timetable](timetable.md)
+1. [curso](https://github.com/Stufinite/curso/blob/master/README.md)
+2. [cphelper](https://github.com/Stufinite/cphelper/blob/master/README.md)
+3. [timetable]()
 
 ## Prerequisities
 

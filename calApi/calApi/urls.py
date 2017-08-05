@@ -26,7 +26,7 @@ urlpatterns = [
 
 import curso.urls
 urlpatterns += [
-    url(r'^curso/', include(curso.urls))
+    url(r'^curso/', include(curso.urls, namespace="curso"))
 ]
 
 # 課程資料查詢API
@@ -34,5 +34,5 @@ urlpatterns += [
 
 import cphelper.urls
 urlpatterns += [
-    url(r'^cphelper/', include(cphelper.urls))
+    url(r'^cphelper/', include(cphelper.urls, namespace="cphelper"))
 ]
