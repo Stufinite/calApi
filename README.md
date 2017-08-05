@@ -22,6 +22,7 @@
 ## Installing
 
 1. `pip install -r requirements.txt`
+2. `./run.sh` 他會把api所需的爬蟲專案載下來在目錄底下，並且執行匯入，預設是載入中山大學；如果要測其他學校需要人工執行指令 [爬蟲指令](https://github.com/stufinite/campasscrawler) [匯入資料指令](https://github.com/stufinite/cphelper)
 
 ## Testing
 
