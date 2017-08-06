@@ -1,4 +1,5 @@
-# calApi 選課小幫手所有的api
+# calApi 選課小幫手所有的api[![Build Status](https://travis-ci.org/Stufinite/calApi.svg?branch=master)](https://travis-ci.org/Stufinite/calApi)
+
 
 本專案分成三種類型的api  
 請去察看各自api的readme
