@@ -10,6 +10,6 @@ services:
 install:
   - pip install -r requirements.txt
 script:
-  - cd calApi; python manage.py migrate;
+  - python calApi/manage.py migrate;
   - bash run.sh
   - cd calApi; python manage.py test;
