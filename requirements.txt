@@ -1,3 +1,4 @@
 django==1.11.*
 curso==1.5
 cphelper==1.6
+django-cors-headers==2.0.0
