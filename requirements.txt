@@ -1,3 +1,3 @@
 django==1.11.*
-curso
-cphelper
+curso==1.5
+cphelper==1.6
