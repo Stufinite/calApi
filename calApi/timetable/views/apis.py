@@ -25,5 +25,6 @@ def get_courses_by_code(request):
             )
         return JsonResponse(result, safe=False)
     except Exception as e:
+        return HttpResponse(e)
         raise Http404("Page does not exist")
     return HttpResponse(str(codes))
