@@ -14,6 +14,7 @@ class Course(models.Model):
     obligatory = models.BooleanField(default=True)
     note = models.CharField(max_length=50, default='')
     discipline = models.CharField(max_length=20, default='')
+    category = models.CharField(max_length=3, default='')
 
     def __str__(self):
         return '({}){}/{}'.format(self.semester, self.code, self.title)
