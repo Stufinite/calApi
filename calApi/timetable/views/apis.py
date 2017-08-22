@@ -21,6 +21,7 @@ def get_courses_by_code(request):
                     "location": c.location,
                     "note": c.note,
                     "discipline": c.discipline,
+                    "category": c.category,
                 }
             )
         return JsonResponse(result, safe=False)
